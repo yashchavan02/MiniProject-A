@@ -1,4 +1,4 @@
-## 🔵 Online Mobile Shop Project Details
+## 🔵 Mini Project A Details
 
 |Project Title| Online Mobile Shop|
 |:-----------:|:-----------------:|
