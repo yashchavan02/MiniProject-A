@@ -1,4 +1,4 @@
-# 🔵 Online Mobile Shop Project Details
+## 🔵 Online Mobile Shop Project Details
 
 |Project Title| Online Mobile Shop|
 |:-----------:|:-----------------:|
@@ -9,7 +9,7 @@
 
 ---
 
-# 🟣 Used C++ Concept
+## 🟣 Used C++ Concept
 - [x] User Difined Functions
 - [x] Classes & Object
 - [x] Constructor
@@ -23,17 +23,17 @@
 
 ---
 
-# 🟡 Online Mobile Shop Document
+## 🟡 Online Mobile Shop Document
 
 <br/>
 
-## ⭕ Introduction
+### ⭕ Introduction
 
 The Mobile Phone Purchase System is a simple console-based application designed to facilitate the purchase of mobile phones from various brands. It provides users with a menu-driven interface to select their desired brand, series, and model of mobile phone, along with displaying relevant information such as prices, features, and specifications. The system is implemented in C++ programming language.
 
 ---
 
-## ⭕ Features
+### ⭕ Features
 
 1. **Brand Selection:**
    - Users can choose from five major mobile phone brands: `Apple` , `Samsung` , `Vivo` , `Oppo` , and `OnePlus` .
@@ -55,7 +55,7 @@ The Mobile Phone Purchase System is a simple console-based application designed 
 
 ---
 
-## ⭕ Code Structure
+### ⭕ Code Structure
 
 1. **Main Function:**
    - The `main()` function serves as the entry point of the program. It prompts the user to start the purchase process and calls the `Show_Mobile_List()` function.
@@ -74,7 +74,7 @@ The Mobile Phone Purchase System is a simple console-based application designed 
 
 ---
 
-## ⭕ Conclusion
+### ⭕ Conclusion
 
 The Mobile Phone Purchase System provides a convenient way for users to explore and purchase mobile phones from popular brands. With its intuitive menu-driven interface and detailed information about available models, users can make informed decisions about their purchases. The system can be further enhanced with additional features such as user authentication, payment processing, and order tracking to provide a more comprehensive purchasing experience.
 
