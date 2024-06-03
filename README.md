@@ -82,6 +82,18 @@ The Mobile Phone Purchase System provides a convenient way for users to explore 
 
 <br/>
 
+## 🟠 Screenshot
+
+- 01
+ 
+![CppProjectA](https://github.com/yashchavan02/MiniProject-A/assets/152779289/16cd0aa3-8bdd-424b-a5f5-0063103edb84)
+
+- 02
+  
+![CppProjectB](https://github.com/yashchavan02/MiniProject-A/assets/152779289/83564a3f-9b71-43c4-b038-6193d0d3af83)
+
+---
+
 ## 🟢 Mobile Divices Used In Project
 
 |Sr. |Mobile Name|Brand |Indian Price |
@@ -139,4 +151,6 @@ The Mobile Phone Purchase System provides a convenient way for users to explore 
 51|Oneplus Nord CE 4 |Oneplus |33000 ₹ |
 52|Oneplus Nord CE 3 |Oneplus |18990 ₹ |
 53|Oneplus Nord CE 2 |Oneplus |17000 ₹ |
+
+
 
