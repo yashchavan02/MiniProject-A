@@ -7,7 +7,7 @@
 |Project Type |Console Based      |
 |Data Manage  |TXT File           |
 
-----
+---
 
 ## 🟣 Used C++ Concept
 - [x] User Difined Functions
@@ -21,7 +21,7 @@
 - [x] Exception Handling
 - [x] Code Reusability 
 
-----
+---
 
 ## 🟡 Online Mobile Shop Document
 
@@ -31,7 +31,7 @@
 
 The Mobile Phone Purchase System is a simple console-based application designed to facilitate the purchase of mobile phones from various brands. It provides users with a menu-driven interface to select their desired brand, series, and model of mobile phone, along with displaying relevant information such as prices, features, and specifications. The system is implemented in C++ programming language.
 
-----
+---
 
 ### ⭕ Features
 
@@ -53,7 +53,7 @@ The Mobile Phone Purchase System is a simple console-based application designed 
    - User data such as the chosen model's price and name are passed to the `userData()` function for further processing.
    - This function can be extended to handle additional user-related tasks like storing order details or generating invoices.
 
-----
+---
 
 ### ⭕ Code Structure
 
@@ -72,13 +72,13 @@ The Mobile Phone Purchase System is a simple console-based application designed 
 5. **Error Handling:**
    - The program includes basic error handling mechanisms such as input validation and recursive function calls for reselection in case of invalid inputs.
 
-----
+---
 
 ### ⭕ Conclusion
 
 The Mobile Phone Purchase System provides a convenient way for users to explore and purchase mobile phones from popular brands. With its intuitive menu-driven interface and detailed information about available models, users can make informed decisions about their purchases. The system can be further enhanced with additional features such as user authentication, payment processing, and order tracking to provide a more comprehensive purchasing experience.
 
-----
+---
 
 <br/>
 
