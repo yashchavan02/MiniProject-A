@@ -5,7 +5,7 @@
 |Shop Name    |YC Shop            |
 |Owner Name   |Yash Anil Chavan   |
 |Project Type |Console Based      |
-|Data Manage  |TXT File           |
+|Data Manage  |Text File           |
 
 ---
 
