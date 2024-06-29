@@ -11,7 +11,6 @@ git clone https://github.com/yashchavan02/MiniProject-A.git
 |Project Title| Online Mobile Shop|
 |:-----------:|:-----------------:|
 |Shop Name    |YC Shop            |
-|Owner Name   |Yash Anil Chavan   |
 |Project Type |Console Based      |
 |Data Manage  |Text File          |
 
