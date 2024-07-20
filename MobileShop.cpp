@@ -4,6 +4,8 @@
 
 using namespace std;
 
+int const myepasskey = 54321;
+
 class mobile_phone{
    public:
    mobile_phone(int price , string name){
@@ -53,23 +55,54 @@ void nord_series(void);
 
 void userData(int,string);
 
+void Login(void);
+void Signup(void);
+void forgot(void);
 
 
 int main(){
+system("cls");   
+cout<<endl;
+cout<<"--->> Special Offer :: Enjoy A 5% Shop Discount <<---" << endl<<endl;   
+cout<<"1. LogIn"<<endl;
+cout<<"2. SignUp"<<endl<<endl;
 
- char startValue; 
+char registration;
+cout <<"$ Please Choose An Option"<<endl;
+cout<<"Input Here : " ; 
+cin>>registration;
 
- cout<<"$ Please Press s To Start Purchase Mobile."<<endl;
+     switch (registration){
+
+           case '1':
+               Login();
+               break;
+
+           case '2':
+               Signup(); 
+               break;   
+     
+           default:
+               cout<<endl;
+               cout<<"$ Fail To Choose."<<endl;
+               main();
+               break;
+
+}
+
+char startValue; 
+
+cout<<"$ Please Press s To Start Purchase Mobile."<<endl;
  start:
- cout<<"Input Here : " ; 
- cin>>startValue;
+cout<<"Input Here : " ; 
+cin>>startValue;
 
 
- if(startValue =='s' || startValue == 'S'){
+if(startValue =='s' || startValue == 'S'){
      Show_Mobile_List();
 }
 
- else{
+else{
       cout<<"$ Fail To Start Purchasing Please Press s To Start Purchase Mobile."<<endl;
       goto start;
 }
@@ -77,6 +110,128 @@ int main(){
   return 0;
 
 }
+
+void Login(){
+   string username,fuername;
+   string password,fpassword;
+   int epasskey,fepasskey;
+   cout<<endl;
+   cout<<"$ username : ";
+   cin>>username;
+   cout<<"$ password : ";
+   cin>>password;
+   cout<<"$ epasskey : ";
+   cin>>epasskey;
+   cout<<endl;
+   int passkey = epasskey - myepasskey;
+   ifstream fin("Registration.txt");
+   string line;
+   for(int i = 0; i < passkey; i++){
+        getline(fin, line);
+   }
+   fin>>fuername>>fpassword>>fepasskey;
+   if(username == fuername && password == fpassword && epasskey == fepasskey){
+       system("cls");
+       cout<<endl;
+       cout<<"$ Login Successful."<<endl;
+       cout<<endl;
+   }
+   else {
+       system("cls");
+       cout<<endl;
+       cout<<"$ 404 | User Not Found."<<endl;
+       cout<<endl;
+       cout<<"1. ReLogIn"<<endl;
+       cout<<"2. Forgot"<<endl<<endl;
+
+       char reregistration;
+       cout <<"$ Please Choose An Option"<<endl;
+       cout<<"Input Here : " ; 
+       cin>>reregistration;
+
+     switch (reregistration){
+
+           case '1':
+               Login();
+               break;
+
+           case '2':
+               forgot(); 
+               break;   
+     
+           default:
+               cout<<endl;
+               cout<<"$ Fail To Choose."<<endl;
+               main();
+               break;
+
+      }
+   }
+}
+
+void Signup(){
+   string username;
+   string password;
+   int epasskey;
+   int passkey;
+   char enterkey;
+   cout<<endl;
+   cout<<"$ username : ";
+   cin>>username;
+   cout<<"$ password : ";
+   cin>>password;  
+   cout<<endl; 
+   passkey = 0; 
+   ifstream fin("Registration.txt");
+   string line;
+   while (getline(fin, line)) {
+        passkey++;
+   }
+   fin.close();
+   epasskey = passkey + myepasskey ;
+
+   ofstream fout;
+   fout.open("Registration.txt",ios::app);
+   fout<<username<<" "<<password<<" "<<epasskey<<endl;
+   fout.close();
+
+   cout<<"$ Note It Your 'epasskey' Is "<<epasskey<<endl;
+   cout<<"$ Warning : Don't Share 'epasskey' With Others For Security Reason"<<endl<<endl;
+   cout<<"$ Registration Completed."<<endl<<endl;
+   cout<<"$ Press c For Continue Shoping. ";
+   cin>>enterkey;
+   system("cls");
+   cout<<endl; 
+}
+
+void forgot(){
+  int fepasskey;
+  startforgot:
+  string fusername , fpassword;
+  cout<<"\n$ Enter Your epasskey : ";
+  cin>>fepasskey;
+  cout<<endl;
+  int passkey = fepasskey - myepasskey;
+  ifstream fin("Registration.txt");
+  string line;
+  for(int i = 0; i < passkey; i++){
+        getline(fin, line);
+   }
+  fin>>fusername>>fpassword;
+  if(fusername.empty()){
+    cout<<"$ 404 | User Not Found."<<endl;
+    cout<<"$ Please Enter valid epasskey "<<endl;
+    goto startforgot;
+  }
+  else {
+  cout<<"Your username : "<<fusername<<endl;
+  cout<<"Your password : "<<fpassword<<endl;
+  cout<<endl;
+  cout<<"$ LogIn Please."<<endl;
+  Login();
+  }
+}
+
 
 void Show_Mobile_List(void){
      cout <<endl;
