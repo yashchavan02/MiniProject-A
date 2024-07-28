@@ -105,7 +105,7 @@ The Mobile Phone Purchase System provides a convenient way for users to explore 
 
 <br/>
 
-## 🟠 Screenshot
+## 🟠 Screenshot 03/06/2024
 
 - 01
  
@@ -114,6 +114,20 @@ The Mobile Phone Purchase System provides a convenient way for users to explore 
 - 02
   
 ![CppProjectB](https://github.com/yashchavan02/MiniProject-A/assets/152779289/83564a3f-9b71-43c4-b038-6193d0d3af83)
+
+## 🟠 Screenshot 28/07/2024
+
+- 01 
+
+![MiniProjectA101](https://github.com/user-attachments/assets/7337a5ff-dff3-4b84-9262-7839fcc62f52)
+
+- 02
+
+![MiniProjectA102](https://github.com/user-attachments/assets/6f07aedf-d1d9-49d9-9032-0b43c72e584c)
+
+- 03
+
+![MiniProjectA103](https://github.com/user-attachments/assets/966ef713-2c67-4a64-89b1-5c500ac01bb3)
 
 ---
 
