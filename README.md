@@ -1,3 +1,11 @@
+## ⬇️ **Run Above Code On Your Local Machine :** 
+#### ✦ Copy Below Text As It Is And Run On Your CMD Pannel ➜
+
+```
+git clone https://github.com/yashchavan02/MiniProject-A.git
+```
+---
+
 ## 🔵 Mini Project A Details
 
 |Project Title| Online Mobile Shop|
@@ -5,7 +13,7 @@
 |Shop Name    |YC Shop            |
 |Owner Name   |Yash Anil Chavan   |
 |Project Type |Console Based      |
-|Data Manage  |Text File           |
+|Data Manage  |Text File          |
 
 ---
 
