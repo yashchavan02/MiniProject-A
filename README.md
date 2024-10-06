@@ -20,6 +20,18 @@ git init
 ```
 git clone https://github.com/yashchavan02/MiniProject-A.git
 ```
+#### Step 7. Enter into MiniProject-A directory.
+```
+cd MiniProject-A.
+```
+#### Step 8. compile program.
+```
+g++ MobileShop.cpp -o MobileShop.o
+```
+#### Step 9. Run program.
+```
+./MobileShop.o
+```
 ---
 
 ## 🔵 Mini Project A Details
