@@ -22,7 +22,7 @@ git clone https://github.com/yashchavan02/MiniProject-A.git
 ```
 #### Step 7. Enter into MiniProject-A directory.
 ```
-cd MiniProject-A.
+cd MiniProject-A
 ```
 #### Step 8. compile program.
 ```
